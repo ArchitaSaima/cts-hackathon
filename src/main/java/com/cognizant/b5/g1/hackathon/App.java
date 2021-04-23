@@ -16,7 +16,6 @@ public class App
 	
 	private static WebDriver driver;
 	private static Properties objPro = new Properties();
-	private static XSSFWorkbook wb;
 	
 	@BeforeSuite
 	public void setupProperties() {
